@@ -1,65 +1,11 @@
+:root {
+  --title-font: Arial, sans-serif;
+  --body-font: brown;
+}
+
 body {
-  font-size: min(14px, 2.5vw);
-}
-
-#container {
-  padding-top: 12px;
-  max-width: 700px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin: auto;
-  padding-bottom: 50px;
-  color: #222;
-}
-
-#header {
-  letter-spacing: -0.01em;
-  line-height: 1.1;
-  font-weight: 900;
-  font-family: "Helvetica",sans-serif;
-}
-
-#titre {
-  font-size: 2.2em;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
-}
-
-#soustitre {
-  font-size: 1.3em;
-  line-height: 1.3;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
-
-#links {
-  text-align: right;
-  font-size: 1em;
-  line-height: 1.3;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-}
-
-#textbox {
-  font-family: "Georgia",serif;
-}
-
-p {
-  padding-top: 1em;
-  padding-top: 1em;
-  hyphens: auto;
-  line-height: 1.35;
-  font-size: 1.3em;
-  font-family: "Georgia",serif;
-  font-weight: 500;
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-#publications {
-  padding-top: 0em;
-  line-height: 1.35em;
-  font-size: 1.3em;
+  font-size: min(13px, 2.3vw);
+  font-family: "Georgia", serif;
 }
 
 a:link, a:visited {
@@ -72,10 +18,67 @@ a:hover {
   color: #268bd2;
 }
 
-.pubhead {
-  font-family: "Helvetica",sans-serif;
-  font-weight: 900;
+#conteneur {
+  padding-top: 12px;
+  max-width: 700px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  padding-bottom: 50px;
+  color: #222;
+}
+
+#tete {
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  font-family: var(--title-font);
+}
+
+#titre {
+  font-size: 2.4em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+#soustitre {
+  font-size: 1.3em;
+  line-height: 1.3;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#liens {
+  text-align: right;
   font-size: 1em;
+  line-height: 1.3;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+#boitedetexte {
+}
+
+p {
+  padding-top: 1em;
+  padding-top: 1em;
+  hyphens: auto;
+  line-height: 1.35;
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#publications {
+  padding-top: 0em;
+  line-height: 1.35em;
+  font-size: 1.3em;
+}
+
+.pubtete {
+  font-family: var(--title-font);
+  font-weight: 500;
+  font-size: 1.1em;
   line-height: 1em;
   padding-top: 2em;
   padding-bottom: 0.5em;
@@ -85,24 +88,26 @@ ul {
   hyphens: auto;
   line-height: 1.3em;
   font-size: 0.9em;
-  font-family: "Georgia",serif;
   font-weight: 500;
   text-align: justify;
   text-justify: inter-word;
-  list-style-type:none;
+  list-style-type: disc;
   margin: 0;
   padding: 0;
+  padding-left: 1.5em;
 }
 
 li {
-  padding: 12px;
+  color: #444;
+  padding-top: 0.8em;
+  padding-right: 0.6em;
 }
 
-.odd {
+.en {
   padding-right: 1.5em;
 }
 
-.even {
+.fr {
   padding-left: 1.5em;
   color: #777;
 }
