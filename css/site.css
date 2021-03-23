@@ -3,6 +3,7 @@ body {
 }
 
 #container {
+  font-size: 0.9em;
   padding-top: 0px;
   width: 700px;
   margin: auto;
