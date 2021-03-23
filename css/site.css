@@ -1,13 +1,15 @@
 body {
-
+  font-size: min(14px, 2.5vw);
 }
 
 #container {
-  font-size: 0.9em;
-  padding-top: 0px;
-  width: 700px;
+  padding-top: 12px;
+  max-width: 700px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: auto;
   padding-bottom: 50px;
+  color: #222;
 }
 
 #header {
@@ -55,17 +57,27 @@ p {
 }
 
 #publications {
-  padding-top: 3em;
+  padding-top: 0em;
   line-height: 1.35em;
   font-size: 1.3em;
 }
 
-#pubhead {
+a:link, a:visited {
+  text-decoration: none;
+  color: #222;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: #268bd2;
+}
+
+.pubhead {
   font-family: "Helvetica",sans-serif;
   font-weight: 900;
   font-size: 1em;
   line-height: 1em;
-  padding-top: 0.5em;
+  padding-top: 2em;
   padding-bottom: 0.5em;
 }
 
@@ -83,7 +95,7 @@ ul {
 }
 
 li {
-  padding: 15px;
+  padding: 12px;
 }
 
 .odd {
