@@ -4,18 +4,18 @@
 }
 
 body {
-  font-size: min(13px, 2.3vw);
+  font-size: min(16px, 2.4vw);
   font-family: "Georgia", serif;
 }
 
 a:link, a:visited {
   text-decoration: none;
-  color: #222;
+  color: #62ade3;
   transition: 0.4s;
 }
 
 a:hover {
-  color: #268bd2;
+  color: #196094;
 }
 
 #conteneur {
