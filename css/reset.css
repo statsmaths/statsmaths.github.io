@@ -96,7 +96,3 @@ hr {
 input, select {
     vertical-align:middle;
 }
-
-::selection {
-  background: var(--color-background); /* WebKit/Blink Browsers */
-}
