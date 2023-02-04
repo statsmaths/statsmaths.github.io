@@ -18,6 +18,10 @@ a:hover {
   color: #196094;
 }
 
+sup {
+  font-size: smaller;
+}
+
 #conteneur {
   padding-top: 12px;
   max-width: 700px;
